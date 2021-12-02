@@ -1,0 +1,29 @@
+.principal{
+    background-image: url('../assets/fondoprincipal.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.crearcuenta{
+    background-image: url('../assets/crearcuenta.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;    
+}
+
+.recuperarcuenta{
+    background-image: url('../assets/recuperarcuenta.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+
+.confirmarcuenta{
+    background-image: url('../assets/fondo-confirmar-cuenta.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;    
+}
+
+.pantallaprincipal{
+    background-color: #f2f2f2;    
+}

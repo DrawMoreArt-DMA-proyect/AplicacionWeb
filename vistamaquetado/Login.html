@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top principal">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/principal.css">
+
+  </head>
+  <body>
+    <nav class="navbar has-background-grey is-fixed-top" role="navigation" aria-label="main navigation">
+    <div id="my-navbar-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item">
+              <a href="#" class="button is-primary is-rounded">Acerca de</a>
+          </div>
+      
+        </div>
+        <div class="my-navbar-center">
+             <figure class="image is-48x48">
+                <img src="assets/logo-equipo.png" >
+            </figure>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+              <a href="#" class="button is-primary is-rounded">Crear Cuenta</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+            <div class="box">
+              <div class="has-text-centered">
+                  <img src="assets/logo-dma.png" alt="Placeholder image">
+              </div>
+                <form action="" class="block">
+                  <div class="field ">
+                    <label class="label">Cuenta</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Cuenta">
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Contraseña</label>
+                    <div class="control">
+                      <input class="input" type="password" placeholder="Contraseña"
+                      id="typepass">
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox" onclick="Toggle()">
+                        Mostrar Contraseña
+                      </label>
+                    </div>
+                  </div>
+                  <div class="columns">
+                    <div class="column is-half has-text-centered ">
+                      <button class="button is-success is-fullwidth">Acceder</button>
+                    </div>
+   
+                    <div class="column is-half has-text-centered">
+                      <button class="button is-white is-fullwidth">Olvidaste tu Contraseña</button>
+                    </div>
+                  </div>
+                </form>
+                <div class="buttons">
+                  <button class="button is-rounded is-fullwidth">
+                    <span class="icon">
+                      <i class="fab fa-facebook-square"></i>
+                    </span>
+                    <span>Acceder con Facebook</span>
+                  </button>
+                  <button class="button is-rounded is-fullwidth">
+                    <span class="icon">
+                      <i class="fab fa-google"></i>
+                    </span>
+                    <span>Acceder con Facebook</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<script src="js/principal.js"></script>
+  </body>
+</html>
